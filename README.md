@@ -66,7 +66,7 @@ All requests and responses use JSON format.
 
 ```yaml
 {
-   "status": "pedent",
-   "content": "Sleep"
+   "status": "pending",
+   "content": "sleep"
 }
 ```
