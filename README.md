@@ -29,31 +29,31 @@ git cd todo
 git npm install
 ```
 
-## Routes
+# Routes
 
 Access the API through the following URL: http://localhost:8080
 
-# List all tasks
+## List all tasks
 Endpoint: GET /todos
 
 This endpoint returns a list of all available tasks.
 
-# Get a specific task
+## Get a specific task
 Endpoint: GET /todos/:id
 
 This endpoint returns details of a specific task based on the provided ID.
 
-# Create a new task
+## Create a new task
 Endpoint: POST /todos
 
 This endpoint allows you to create a new task. Send the task data in the request body.
 
-# Update an existing task
+## Update an existing task
 Endpoint: PUT /todos/:id
 
 This endpoint allows you to update an existing task based on the provided ID. Send the updated data in the request body.
 
-# Delete a task
+## Delete a task
 Endpoint: DELETE /todos/:id
 
 This endpoint allows you to delete a task based on the provided ID.
