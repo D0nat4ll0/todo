@@ -3,4 +3,4 @@ import { todoRoute } from './router';
 
 export const app = fastify()
 
-app.register(todoRoute, { prefix: '/todo' });
+app.register(todoRoute, { prefix: '/todos' });
