@@ -20,13 +20,13 @@ git clone https://github.com/D0nat4ll0/todo
 2. Navigate to the project directory:
 
 ```bash
-git cd todo
+cd todo
 ```
 
 3. Navigate to the project directory:
 
 ```bash
-git npm install
+npm install
 ```
 
 # Routes
