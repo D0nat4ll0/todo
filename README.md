@@ -6,7 +6,7 @@ This is a sample project of a CRUD (Create, Read, Update, Delete) API for managi
 
 Make sure you have the following technologies installed on your machine:
 
-- Node.js (version X.X.X)
+- Node.js (version 18.16.0)
 - NPM (Node.js package manager)
 
 ## Installation
@@ -27,4 +27,29 @@ git cd todo
 
 ```bash
 git npm install
+```
+
+## Usage
+
+Access the API through the following URL: http://localhost:8080
+
+## Routes
+
+Access the API through the following URL: http://localhost:8080
+
+GET /todos: Returns a list of all tasks.
+GET /todos/:id: Returns a specific task based on the provided ID.
+POST /todos: Creates a new task. Send the task data in the request body.
+PUT /todos/:id: Updates an existing task based on the provided ID. Send the updated data in the request body.
+DELETE /todos/:id: Deletes a task based on the provided ID.
+
+## Data Format
+
+All requests and responses use JSON format.
+
+```yaml
+{
+   "status": "pedent",
+   "content": "Sleep"
+}
 ```
